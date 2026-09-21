@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I Once Was Lost, But Now I'm Found, PLLC | Psychiatry &amp; Behavioral Health in Tacoma, WA</title>
+<meta name="description" content="Compassionate, evidence-based psychiatry and behavioral health care in Tacoma, WA. Psychiatric consultation, medication management, online or in-person visits. Insurance accepted.">
+<meta name="theme-color" content="#061f45">
+<link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg">
+<link rel="preload" href="assets/fonts/GeneralSans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/GeneralSans-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 005 5L14 13l5 2v3a2 2 0 01-2 2A14 14 0 013 6a2 2 0 012-2z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-brain" viewBox="0 0 24 24"><path d="M9.5 4.5A3 3 0 006.5 7a3 3 0 00-2 5 3 3 0 002 5 3 3 0 005 1.5V5.5a2.5 2.5 0 00-2-1zM14.5 4.5A3 3 0 0117.5 7a3 3 0 012 5 3 3 0 01-2 5 3 3 0 01-5 1.5V5.5a2.5 2.5 0 012-1zM9 10h1.5M13.5 10H15M9 14h1.5M13.5 14H15"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5s-8-4.9-8-11A4.6 4.6 0 0112 7a4.6 4.6 0 018 2.5c0 6.100-8 11-8 11z"/></symbol>
+  <symbol id="i-lotus" viewBox="0 0 24 24"><path d="M12 4c2.2 3 2.6 6.500 0 12-2.600-5.500-2.200-9 0-12zM12 16c-4 0-7-2-8-6 3 0 6 1.500 8 4zM12 16c4 0 7-2 8-6-3 0-6 1.500-8 4zM6 19.500c4 1.500 8 1.500 12 0"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.500-3.200 8-8 9-4.800-1-8-4.500-8-9V6l8-3zM8.500 12l2.500 2.500 4.500-5"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.500-6 8-6s8 2 8 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.500l4.500 4.500L19 7.500"/></symbol>
+  <symbol id="i-video" viewBox="0 0 24 24"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3"/></symbol>
+  <symbol id="i-pill" viewBox="0 0 24 24"><path d="M10.500 20.500a4.950 4.950 0 01-7-7l10-10a4.950 4.950 0 017 7zM8.500 8.500l7 7"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18M7 15h4"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.500 7.200L4 20l1-4.500A8 8 0 1121 12z"/></symbol>
+  <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM9 12h6M9 16h4"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8zM14 3v5h5M9 13h6M9 17h4"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l10 18H2zM12 10v4.500M12 17.500v.5"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-quote" viewBox="0 0 24 24"><path d="M10 6C6.5 6.6 4 9.4 4 13.2V18h6.2v-6H7c.1-1.900 1.100-3.100 3-3.700zM20 6c-3.500.6-6 3.400-6 7.200V18h6.200v-6H17c.1-1.900 1.100-3.100 3-3.700z"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7M6 10v10h12V10M10 20v-5h4v5"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2M11 21v-3h2v3"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Top bar -->
+<div class="topbar">
+  <div class="container">
+    <ul>
+      <li><svg class="icon"><use href="#i-video"/></svg>Online or In-Person</li>
+      <li class="hide-sm"><svg class="icon"><use href="#i-card"/></svg>Insurance Accepted</li>
+      <li class="hide-sm"><svg class="icon"><use href="#i-pin"/></svg>Tacoma, WA</li>
+    </ul>
+    <a href="tel:+10000000000"><span class="hide-sm">Call for appointments: </span>(000) 000-0000</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="#top" aria-label="I Once Was Lost, But Now I'm Found, PLLC — home">
+      <img src="assets/logo.svg" alt="I Once Was Lost, But Now I'm Found, PLLC — Psychiatry, Tacoma, WA" width="282" height="70">
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      <svg class="icon i-open"><use href="#i-menu"/></svg>
+      <svg class="icon i-close"><use href="#i-close"/></svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul class="nav-links">
+        <li><a href="#top" class="is-active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#provider">About Theonie</a></li>
+        <li><a href="#faq">FAQs</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- Hero slider -->
+<section class="hero" id="top" aria-roledescription="carousel" aria-label="Welcome">
+  <div class="slides" aria-live="off">
+
+    <div class="slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 4" style="--pos: 50% 55%">
+      <picture>
+        <source type="image/webp" srcset="assets/img/twilight-800.webp 800w, assets/img/twilight-1400.webp 1400w, assets/img/twilight-2000.webp 2000w" sizes="100vw">
+        <img src="assets/img/twilight-1400.jpg" srcset="assets/img/twilight-800.jpg 800w, assets/img/twilight-1400.jpg 1400w, assets/img/twilight-2000.jpg 2000w" sizes="100vw" alt="" fetchpriority="high" decoding="async">
+      </picture>
+      <div class="container slide-content">
+        <span class="eyebrow">Psychiatry &amp; Behavioral Health · Tacoma, WA</span>
+        <h1><span class="ln"><em>Healing</em> Mind. Restoring Hope.</span><span class="ln">Reclaiming You.</span></h1>
+        <p class="lead">Compassionate, evidence-based psychiatric care for every stage of your journey.</p>
+        <div class="hero-actions">
+          <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a>
+          <a class="btn btn--ghost" href="#services">Our services</a>
+        </div>
+        <ul class="hero-badges">
+          <li><span class="dot"><svg class="icon"><use href="#i-user"/></svg></span><span>Psychiatric Nurse Practitioner<br>MSN, ARNP, PMHNP (she, her)</span></li>
+          <li><span class="dot dot--blue"><svg class="icon"><use href="#i-check"/></svg></span><span>Verified by <strong>Psychology Today</strong></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slide" role="group" aria-roledescription="slide" aria-label="2 of 4" style="--pos: 50% 45%">
+      <picture>
+        <source type="image/webp" srcset="assets/img/ridge-800.webp 800w, assets/img/ridge-1400.webp 1400w, assets/img/ridge-2000.webp 2000w" sizes="100vw">
+        <img src="assets/img/ridge-1400.jpg" srcset="assets/img/ridge-800.jpg 800w, assets/img/ridge-1400.jpg 1400w, assets/img/ridge-2000.jpg 2000w" sizes="100vw" alt="" loading="lazy" decoding="async">
+      </picture>
+      <div class="container slide-content">
+        <span class="eyebrow">Your story</span>
+        <h2><span class="ln">You are not your past.</span><span class="ln"><em>Your story can change.</em></span></h2>
+        <p class="lead">Personalized plans built around your goals, values and lifestyle.</p>
+        <div class="hero-actions">
+          <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a>
+          <a class="btn btn--ghost" href="#about">About the practice</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide--tint" role="group" aria-roledescription="slide" aria-label="3 of 4" style="--pos: 50% 70%">
+      <picture>
+        <source type="image/webp" srcset="assets/img/lotus-800.webp 800w, assets/img/lotus-1400.webp 1400w, assets/img/lotus-2000.webp 2000w" sizes="100vw">
+        <img src="assets/img/lotus-1400.jpg" srcset="assets/img/lotus-800.jpg 800w, assets/img/lotus-1400.jpg 1400w, assets/img/lotus-2000.jpg 2000w" sizes="100vw" alt="" loading="lazy" decoding="async">
+      </picture>
+      <div class="container slide-content">
+        <span class="eyebrow">Whole-person care</span>
+        <h2><span class="ln">Whole-person care for</span><span class="ln"><em>Mind · Body · Spirit</em></span></h2>
+        <p class="lead">A holistic approach to support your total well-being, with confidential, inclusive, judgment-free care. Always.</p>
+        <div class="hero-actions">
+          <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a>
+          <a class="btn btn--ghost" href="#provider">Meet Theonie</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide" role="group" aria-roledescription="slide" aria-label="4 of 4" style="--pos: 25% 60%">
+      <picture>
+        <source type="image/webp" srcset="assets/img/sunset-800.webp 800w, assets/img/sunset-1400.webp 1400w, assets/img/sunset-2000.webp 2000w" sizes="100vw">
+        <img src="assets/img/sunset-1400.jpg" srcset="assets/img/sunset-800.jpg 800w, assets/img/sunset-1400.jpg 1400w, assets/img/sunset-2000.jpg 2000w" sizes="100vw" alt="" loading="lazy" decoding="async">
+      </picture>
+      <div class="container slide-content">
+        <span class="eyebrow">Care that fits your life</span>
+        <h2><span class="ln">Online or in person.</span><span class="ln"><em>Insurance accepted.</em></span></h2>
+        <p class="lead">Psychiatric consultation and medication management, wherever you feel most comfortable.</p>
+        <div class="hero-actions">
+          <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a>
+          <a class="btn btn--ghost" href="#contact">Contact us</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="slider-ui">
+    <div class="container">
+      <div class="dots" role="tablist" aria-label="Choose slide"></div>
+      <div class="arrows">
+        <button class="arrow" data-dir="-1" aria-label="Previous slide"><svg class="icon"><use href="#i-left"/></svg></button>
+        <button class="arrow" data-dir="1" aria-label="Next slide"><svg class="icon"><use href="#i-right"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Approach strip -->
+<section class="pillars" aria-label="Our approach">
+  <div class="container">
+    <ul>
+      <li class="pillar"><span class="ring"><svg class="icon"><use href="#i-brain"/></svg></span><div><h3>Evidence-based care</h3><p>Proven treatments for anxiety, depression, trauma, mood disorders &amp; more.</p></div></li>
+      <li class="pillar"><span class="ring"><svg class="icon"><use href="#i-heart"/></svg></span><div><h3>You are unique</h3><p>Personalized plans built around your goals, values and lifestyle.</p></div></li>
+      <li class="pillar"><span class="ring"><svg class="icon"><use href="#i-lotus"/></svg></span><div><h3>Mind · Body · Spirit</h3><p>A holistic approach to support your total well-being.</p></div></li>
+      <li class="pillar"><span class="ring"><svg class="icon"><use href="#i-shield"/></svg></span><div><h3>A safe place</h3><p>Confidential, inclusive, and judgment-free care. Always.</p></div></li>
+    </ul>
+  </div>
+</section>
+<div class="tagline"><p><span>You are not your past. Your story can change.</span><span class="sig">Your healing starts here. <svg class="icon"><use href="#i-heart"/></svg></span></p></div>
+
+<!-- About -->
+<section class="section" id="about">
+  <div class="container split">
+    <div class="about-art">
+      <img src="assets/emblem-original.png" alt="I Once Was Lost But Now I'm Found emblem: a woman walking from shadow toward a sunrise" width="480" height="480" loading="lazy">
+      <div class="about-tag"><span class="dot"><svg class="icon"><use href="#i-check"/></svg></span><span><strong>Verified by Psychology Today</strong><br>Psychiatric Nurse Practitioner</span></div>
+    </div>
+    <div>
+      <span class="eyebrow">About the practice</span>
+      <h2>A safe place to begin again</h2>
+      <p>I Once Was Lost, But Now I'm Found, PLLC offers psychiatry services and behavioral health care, covering both psychiatry and therapy, in Tacoma, Washington. Visits are available online or in person.</p>
+      <p>Our name reflects what we believe: no one is defined by their lowest moment. With the right support, your story can change.</p>
+      <ul class="checks">
+        <li><svg class="icon"><use href="#i-check"/></svg><span>Confidential, inclusive, and judgment-free care</span></li>
+        <li><svg class="icon"><use href="#i-check"/></svg><span>Personalized plans built around your goals, values and lifestyle</span></li>
+        <li><svg class="icon"><use href="#i-check"/></svg><span>Insurance accepted, with online and in-person appointments</span></li>
+      </ul>
+      <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section section--sand" id="services">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Services</span>
+      <h2>Psychiatry &amp; behavioral health care</h2>
+      <p>Support for the mind, in the way that works for you.</p>
+    </div>
+    <div class="cards">
+      <article class="card card--feature">
+        <div class="ic"><svg class="icon"><use href="#i-brain"/></svg></div>
+        <h3>Psychiatry Services</h3>
+        <p>Behavioral health care that covers both psychiatry and therapy, all in one practice.</p>
+      </article>
+      <article class="card">
+        <div class="ic"><svg class="icon"><use href="#i-heart"/></svg></div>
+        <h3>Mental Health Services</h3>
+        <p>Compassionate support for anxiety, depression, trauma, mood disorders and more.</p>
+      </article>
+      <article class="card">
+        <div class="ic"><svg class="icon"><use href="#i-chat"/></svg></div>
+        <h3>Psychiatric Consultation</h3>
+        <p>A thoughtful evaluation to understand what you are experiencing and plan next steps together.</p>
+      </article>
+      <article class="card">
+        <div class="ic"><svg class="icon"><use href="#i-video"/></svg></div>
+        <h3>Online or In-Person</h3>
+        <p>Meet from the comfort of home, or visit the office. Choose the format that fits your life.</p>
+      </article>
+      <article class="card">
+        <div class="ic"><svg class="icon"><use href="#i-pill"/></svg></div>
+        <h3>Prescription of Medicine</h3>
+        <p>Medication evaluation and management when it is the right choice for you.</p>
+      </article>
+      <article class="card">
+        <div class="ic"><svg class="icon"><use href="#i-card"/></svg></div>
+        <h3>Insurance Accepted</h3>
+        <p>We accept insurance. Call the office to confirm your coverage before your first visit.</p>
+      </article>
+    </div>
+    <div class="cta-band">
+      <div>
+        <h3>Ready to take the first step?</h3>
+        <p>Call our office to schedule your appointment.</p>
+      </div>
+      <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a>
+    </div>
+  </div>
+</section>
+
+<!-- Provider -->
+<section class="section" id="provider">
+  <div class="container provider">
+    <div class="portrait">
+      <picture>
+        <source type="image/webp" srcset="assets/img/provider-600.webp 600w, assets/img/provider-900.webp 900w, assets/img/provider-1200.webp 1200w" sizes="(max-width: 860px) 100vw, 480px">
+        <img src="assets/img/provider-900.jpg" srcset="assets/img/provider-600.jpg 600w, assets/img/provider-900.jpg 900w, assets/img/provider-1200.jpg 1200w" sizes="(max-width: 860px) 100vw, 480px" alt="Balanced stacked stones, a symbol of calm and steadiness" width="900" height="1350" loading="lazy" decoding="async">
+      </picture>
+      <div class="portrait-badge"><span class="dot"><svg class="icon"><use href="#i-check"/></svg></span>Verified by Psychology Today</div>
+      <div class="portrait-card"><strong>Theonie Labee</strong><span>Psychiatric Nurse Practitioner<br>MSN, ARNP, PMHNP</span></div>
+    </div>
+    <div>
+      <span class="eyebrow">Meet your provider</span>
+      <h2>About Theonie Labee</h2>
+      <ul class="creds">
+        <li>Psychiatric Nurse Practitioner</li>
+        <li>MSN</li>
+        <li>ARNP</li>
+        <li>PMHNP</li>
+        <li>she / her</li>
+      </ul>
+      <p class="lead-p">Theonie Labee is a psychiatric nurse practitioner providing psychiatry and behavioral health care at I Once Was Lost, But Now I'm Found, PLLC in Tacoma, Washington.</p>
+      <p>As a Psychiatric-Mental Health Nurse Practitioner, Theonie offers psychiatric consultation, prescription of medicine when it is appropriate, and support that covers both psychiatry and therapy, so you can receive care for your mind in one trusted place.</p>
+      <p>Her approach is compassionate and evidence-based. Every plan is personalized around your goals, values and lifestyle, and grounded in the belief that healing includes the whole person: mind, body and spirit. Care is confidential, inclusive, and judgment-free. Always.</p>
+      <ul class="highlights">
+        <li><svg class="icon"><use href="#i-chat"/></svg><span>Psychiatric consultation</span></li>
+        <li><svg class="icon"><use href="#i-pill"/></svg><span>Prescription of medicine</span></li>
+        <li><svg class="icon"><use href="#i-heart"/></svg><span>Behavioral health &amp; therapy</span></li>
+        <li><svg class="icon"><use href="#i-video"/></svg><span>Online or in-person visits</span></li>
+      </ul>
+      <div class="hero-actions">
+        <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a>
+        <a class="btn btn--outline" href="https://www.psychologytoday.com/us/psychiatrists/i-once-was-lost-but-now-i-m-found-pllc-tacoma-wa/1693628" target="_blank" rel="noopener">Psychology Today profile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Approach + process -->
+<section class="section section--navy" id="approach">
+  <div class="container split split--top">
+    <div>
+      <span class="eyebrow">Evidence-based care</span>
+      <h2>Proven treatments, personalized to you</h2>
+      <p class="on-dark">Proven treatments for anxiety, depression, trauma, mood disorders &amp; more, built around your goals, values and lifestyle, and supporting your mind, body and spirit.</p>
+      <ul class="chips">
+        <li>Anxiety</li><li>Depression</li><li>Trauma</li><li>Mood disorders</li><li>&amp; more</li>
+      </ul>
+      <p class="quote-line">"You are not your past. Your story can change."</p>
+    </div>
+    <ol class="steps">
+      <li><span class="num">1</span><div><h3>Call to schedule</h3><p>Call our office to book your appointment, online or in person, and ask about your insurance.</p></div></li>
+      <li><span class="num">2</span><div><h3>Psychiatric consultation</h3><p>Share what you are experiencing and what you hope for. Together we look at the road ahead.</p></div></li>
+      <li><span class="num">3</span><div><h3>Your personalized plan</h3><p>Psychiatry and therapy, with prescription of medicine when appropriate, in confidential, judgment-free care.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- Insurance -->
+<section class="section section--sand" id="insurance">
+  <div class="container">
+    <div class="insurance">
+      <div class="insurance-main">
+        <span class="ic"><svg class="icon"><use href="#i-card"/></svg></span>
+        <span class="eyebrow">Insurance</span>
+        <h2>Insurance Accepted</h2>
+        <p>We accept insurance so that quality psychiatric care is within reach. Please call our office to confirm your coverage before your first appointment.</p>
+        <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call to verify coverage</a>
+      </div>
+      <div class="insurance-side">
+        <h3>Before your first visit</h3>
+        <ul class="checks">
+          <li><svg class="icon"><use href="#i-check"/></svg><span>Have your insurance card ready when you call</span></li>
+          <li><svg class="icon"><use href="#i-check"/></svg><span>Ask whether your plan covers online or in-person visits</span></li>
+          <li><svg class="icon"><use href="#i-check"/></svg><span>Ask any billing questions before you begin</span></li>
+        </ul>
+        <p class="small-note"><a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-calendar"/></svg>Book now</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section" id="stories">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Patient stories</span>
+      <h2>Voices of hope</h2>
+      <p>Kind words from the people we have had the privilege to care for.</p>
+    </div>
+    <div class="testimonials">
+      <figure class="tcard">
+        <svg class="icon q"><use href="#i-quote"/></svg>
+        <blockquote>Patient testimonial goes here. Add a short, genuine quote, shared with the patient's written permission.</blockquote>
+        <figcaption><span class="avatar">A</span><span><strong>Patient name or initials</strong><br>Type of care</span></figcaption>
+        <span class="sample">Sample text</span>
+      </figure>
+      <figure class="tcard tcard--accent">
+        <svg class="icon q"><use href="#i-quote"/></svg>
+        <blockquote>Patient testimonial goes here. Add a short, genuine quote, shared with the patient's written permission.</blockquote>
+        <figcaption><span class="avatar">B</span><span><strong>Patient name or initials</strong><br>Type of care</span></figcaption>
+        <span class="sample">Sample text</span>
+      </figure>
+      <figure class="tcard">
+        <svg class="icon q"><use href="#i-quote"/></svg>
+        <blockquote>Patient testimonial goes here. Add a short, genuine quote, shared with the patient's written permission.</blockquote>
+        <figcaption><span class="avatar">C</span><span><strong>Patient name or initials</strong><br>Type of care</span></figcaption>
+        <span class="sample">Sample text</span>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- Image CTA -->
+<section class="cta-image" aria-label="Get started">
+  <picture>
+    <source type="image/webp" srcset="assets/img/twilight-800.webp 800w, assets/img/twilight-1400.webp 1400w, assets/img/twilight-2000.webp 2000w" sizes="100vw">
+    <img src="assets/img/twilight-1400.jpg" srcset="assets/img/twilight-800.jpg 800w, assets/img/twilight-1400.jpg 1400w, assets/img/twilight-2000.jpg 2000w" sizes="100vw" alt="" loading="lazy" decoding="async">
+  </picture>
+  <div class="container cta-inner">
+    <p class="script-line">Your healing starts here.</p>
+    <h2>You are not your past.<br>Your story can change.</h2>
+    <div class="hero-actions">
+      <a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a>
+      <a class="btn btn--ghost" href="#contact">Contact us</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container faq">
+    <div>
+      <span class="eyebrow">FAQs</span>
+      <h2>Questions, answered</h2>
+      <p style="color:var(--muted)">Can't find what you are looking for? Call our office and we will be glad to help.</p>
+      <a class="btn btn--outline" href="#contact">Contact us</a>
+    </div>
+    <div class="faq-list">
+      <details open><summary>Do you offer online appointments?<svg class="icon"><use href="#i-plus"/></svg></summary><p>Yes. Appointments are available online or in person, whichever fits your life best.</p></details>
+      <details><summary>Do you accept insurance?<svg class="icon"><use href="#i-plus"/></svg></summary><p>Yes, insurance is accepted. Please call our office to confirm that your plan is covered before your first visit.</p></details>
+      <details><summary>Can you prescribe medication?<svg class="icon"><use href="#i-plus"/></svg></summary><p>Yes. Prescription of medicine is part of our psychiatric care when it is appropriate for you. Decisions are made together during your consultation.</p></details>
+      <details><summary>What is a psychiatric consultation?<svg class="icon"><use href="#i-plus"/></svg></summary><p>It is a conversation about what you are experiencing and what you hope for, so that a personalized plan can be created around your goals, values and lifestyle.</p></details>
+      <details><summary>Do you provide therapy as well as psychiatry?<svg class="icon"><use href="#i-plus"/></svg></summary><p>Our behavioral health care covers both psychiatry and therapy.</p></details>
+      <details><summary>Where can I find patient forms?<svg class="icon"><use href="#i-plus"/></svg></summary><p>Patient forms are available on this page as downloadable PDFs. They cannot be filled out online, so please print them and bring them to your appointment. <a href="#forms">Go to forms</a>.</p></details>
+      <details><summary>Is my information kept private?<svg class="icon"><use href="#i-plus"/></svg></summary><p>Yes. We protect your health information in accordance with HIPAA. Please avoid sending sensitive medical information by regular email, text message or website forms. <a href="#hipaa">Read our HIPAA notice</a>.</p></details>
+      <details><summary>Can I use this website in an emergency?<svg class="icon"><use href="#i-plus"/></svg></summary><p>No. This website is for informational and administrative purposes only. If you are experiencing a medical or mental health emergency, call 911 or go to the nearest emergency department.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- Forms -->
+<section class="section section--sand" id="forms">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Patient forms</span>
+      <h2>Forms to download</h2>
+      <p>Forms are provided as PDF documents to download and print. They cannot be filled out online. Please bring completed forms to your appointment.</p>
+    </div>
+    <div class="forms-grid">
+      <!-- Add one link per PDF from the forms/ folder, for example:
+      <a class="form-card" href="forms/new-patient-intake.pdf" download><svg class="icon"><use href="#i-file"/></svg><div><strong>New Patient Intake</strong><span>PDF</span></div></a>
+      -->
+      <div class="form-card"><svg class="icon"><use href="#i-file"/></svg><div><strong>Forms coming soon</strong><span>PDF downloads will appear here</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- HIPAA -->
+<section class="section section--hipaa" id="hipaa">
+  <div class="container">
+    <div class="hipaa-head">
+      <span class="ring"><svg class="icon"><use href="#i-shield"/></svg></span>
+      <span class="eyebrow">HIPAA Information</span>
+      <h2>HIPAA Privacy and Confidentiality</h2>
+      <p class="hipaa-lead">Our practice is committed to protecting the privacy and confidentiality of your personal and protected health information in accordance with the Health Insurance Portability and Accountability Act of 1996 (HIPAA) and other applicable federal and state privacy laws.</p>
+    </div>
+    <div class="hipaa-grid">
+      <article class="hcard"><span class="hnum">01</span><span class="hic"><svg class="icon"><use href="#i-file"/></svg></span><h3>Protected Health Information</h3><p>Any health, medical, psychiatric, billing, or identifying information you provide to our practice may be considered Protected Health Information (PHI). We maintain administrative, technical, and physical safeguards designed to protect this information from unauthorized access, use, or disclosure.</p></article>
+      <article class="hcard"><span class="hnum">02</span><span class="hic"><svg class="icon"><use href="#i-lock"/></svg></span><h3>Secure Communication</h3><p>Information submitted through this website, patient portals, secure electronic forms, or other approved communication methods will be handled in accordance with applicable privacy and security requirements. However, standard email, text messaging, and general website contact forms may not always provide the same level of security as HIPAA-compliant communication systems. Please avoid submitting highly sensitive or confidential medical information through unsecured communication methods unless specifically instructed by our office.</p></article>
+      <article class="hcard"><span class="hnum">03</span><span class="hic"><svg class="icon"><use href="#i-clipboard"/></svg></span><h3>How Your Information Is Used</h3><p>Your health information will not be used or disclosed except as permitted or required by law, for purposes related to treatment, payment, healthcare operations, or with your written authorization when required.</p></article>
+      <article class="hcard"><span class="hnum">04</span><span class="hic"><svg class="icon"><use href="#i-user"/></svg></span><h3>Your Privacy Rights</h3><p>For additional information regarding how your health information may be used or disclosed, your privacy rights, or our privacy practices, please review our Notice of Privacy Practices or contact our office directly.</p></article>
+    </div>
+    <div class="hipaa-alert">
+      <svg class="icon"><use href="#i-alert"/></svg>
+      <p><strong>Not for emergencies.</strong> This website is intended for informational and administrative purposes and should not be used for psychiatric or medical emergencies. If you are experiencing a medical or mental health emergency, call 911 or go to the nearest emergency department.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-main">
+    <div class="footer-brand">
+      <img src="assets/logo-light.svg" alt="I Once Was Lost, But Now I'm Found, PLLC" width="243" height="60">
+      <p>Compassionate, evidence-based psychiatric care for every stage of your journey. Online or in person.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#provider">About Theonie</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Patients</h3>
+      <ul>
+        <li><a href="#faq">FAQs</a></li>
+        <li><a href="#forms">Patient Forms</a></li>
+        <li><a href="#hipaa">HIPAA &amp; Privacy</a></li>
+        <li><a href="https://www.psychologytoday.com/us/psychiatrists/i-once-was-lost-but-now-i-m-found-pllc-tacoma-wa/1693628" target="_blank" rel="noopener">Psychology Today</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <ul class="footer-contact">
+        <li><svg class="icon"><use href="#i-phone"/></svg><a href="tel:+10000000000">(000) 000-0000</a></li>
+        <li><svg class="icon"><use href="#i-pin"/></svg><span>Tacoma, WA</span></li>
+        <li><svg class="icon"><use href="#i-card"/></svg><span>Insurance accepted</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-emergency">
+    <strong>In an emergency, call 911</strong> or go to the nearest emergency department. If you are in crisis, call or text <strong>988</strong>, the Suicide &amp; Crisis Lifeline. This website is intended for informational and administrative purposes and should not be used for psychiatric or medical emergencies.
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; <span id="year">2026</span> I Once Was Lost, But Now I'm Found, PLLC. All rights reserved.</span>
+    <a href="#hipaa">HIPAA Privacy &amp; Confidentiality</a>
+  </div>
+</footer>
+
+<div class="call-bar"><a class="btn" href="tel:+10000000000"><svg class="icon"><use href="#i-phone"/></svg>Call for appointments</a></div>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
