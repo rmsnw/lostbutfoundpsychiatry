@@ -15,10 +15,10 @@
   --rose-dark: #2563eb;
   --rose-soft: #dbeafe;
   --ink: #18181b;
-  --muted: #52525b;
-  --line: #e4e4e7;
+  --muted: rgba(9, 9, 11, .64);
+  --line: #dbeafe;
   --paper: #ffffff;
-  --sand: #f4f4f5;
+  --sand: #eff6ff;
   --radius: 18px;
   --shadow: 0 10px 30px rgba(9, 9, 11, .08);
   --font: "General Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
