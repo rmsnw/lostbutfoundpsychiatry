@@ -16,11 +16,14 @@
   var y = document.getElementById('year');
   if (y) y.textContent = new Date().getFullYear();
 
-  // ---- Active nav link on scroll ----
+  // ---- Active nav link on scroll (same-page anchors only) ----
   var links = [].slice.call(document.querySelectorAll('.nav-links a'));
   var map = {};
-  links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
-  if ('IntersectionObserver' in window) {
+  links.forEach(function (a) {
+    var href = a.getAttribute('href');
+    if (href && href.charAt(0) === '#' && href.length > 1) map[href.slice(1)] = a;
+  });
+  if ('IntersectionObserver' in window && Object.keys(map).length) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting && map[en.target.id]) {
@@ -35,8 +38,9 @@
     });
   }
 
-  // ---- Hero slider ----
+  // ---- Hero slider (only present on the homepage) ----
   var hero = document.querySelector('.hero');
+  if (!hero) return;
   var slides = [].slice.call(hero.querySelectorAll('.slide'));
   var dotsWrap = hero.querySelector('.dots');
   var INTERVAL = 7000;
