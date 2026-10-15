@@ -9,8 +9,19 @@
     menuBtn.setAttribute('aria-expanded', String(open));
   }
   menuBtn.addEventListener('click', function () { setMenu(!nav.classList.contains('is-open')); });
-  nav.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
+  nav.addEventListener('click', function (e) { if (e.target.closest('a, .nav-close')) setMenu(false); });
+  document.addEventListener('click', function (e) {
+    if (nav.classList.contains('is-open') && !nav.contains(e.target) && !menuBtn.contains(e.target)) setMenu(false);
+  });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+
+  // ---- Shrink header logo on scroll ----
+  var header = document.querySelector('.site-header');
+  if (header) {
+    var onScroll = function () { header.classList.toggle('is-scrolled', window.scrollY > 40); };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
 
   // ---- Footer year ----
   var y = document.getElementById('year');
